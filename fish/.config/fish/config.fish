@@ -28,4 +28,7 @@ alias zel="zellij"
 # Starship Prompt - Keep at bottom
 starship init fish | source
 
+# Screenshots in i3
+export SCROTDIR="$HOME/Pictures"
+
 end

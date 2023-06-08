@@ -164,34 +164,13 @@ lvim.builtin.treesitter.highlight.enable = true
 
 -- Additional Plugins
 lvim.plugins = {
-  {
-    "iamcco/markdown-preview.nvim",
-    run = "cd app && npm install",
-    ft = "markdown",
-    config = function()
-      vim.g.mkdp_auto_start = 1
-    end,
-  },
+  { "folke/tokyonight.nvim" },
+  { "kvrohit/substrata.nvim" },
 }
 
--- Autocommands (https://neovim.io/doc/user/autocmd.html)
--- vim.api.nvim_create_autocmd("BufEnter", {
---   pattern = { "*.json", "*.jsonc" },
---   -- enable wrap mode for json files only
---   command = "setlocal wrap",
--- })
--- vim.api.nvim_create_autocmd("FileType", {
---   pattern = "zsh",
---   callback = function()
---     -- let treesitter use bash highlight for zsh files as well
---     require("nvim-treesitter.highlight").attach(0, "bash")
---   end,
--- })
---
 -- Bobby Custom Settings Start Here:
--- lvim
-lvim.colorscheme = "tokyonight-night"
--- vim
-vim.opt.relativenumber = true
+-- lvim.colorscheme = "tokyonight-night"
+lvim.colorscheme = "substrata"
+-- vim.opt.relativenumber = true
 vim.opt.timeoutlen = 100
 vim.opt.wrap = true
