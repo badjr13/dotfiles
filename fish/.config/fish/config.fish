@@ -22,6 +22,7 @@ alias ls="lsd"
 alias v="lvim"
 alias v.="lvim ."
 alias vim="lvim"
+alias wezterm="flatpak run org.wezfurlong.wezterm"
 alias z="zellij"
 alias zel="zellij"
 

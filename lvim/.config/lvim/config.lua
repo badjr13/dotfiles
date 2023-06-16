@@ -165,12 +165,12 @@ lvim.builtin.treesitter.highlight.enable = true
 -- Additional Plugins
 lvim.plugins = {
   { "folke/tokyonight.nvim" },
-  { "kvrohit/substrata.nvim" },
+  { 'projekt0n/github-nvim-theme' },
 }
 
 -- Bobby Custom Settings Start Here:
 -- lvim.colorscheme = "tokyonight-night"
-lvim.colorscheme = "substrata"
+lvim.colorscheme = "github_dark_high_contrast"
 -- vim.opt.relativenumber = true
 vim.opt.timeoutlen = 100
 vim.opt.wrap = true
