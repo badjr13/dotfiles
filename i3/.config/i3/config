@@ -1,9 +1,9 @@
-exec xrandr --auto --output DP-1 --left-of HDMI-1-0
+# exec xrandr --auto --output DP-1 --left-of HDMI-1-0
 
 force_xinerama yes
 
-set $leftMonitor DP-1
-set $rightMonitor HDMI-1-0
+# set $leftMonitor DP-1
+# set $rightMonitor HDMI-1-0
 
 default_border pixel 1
 default_floating_border pixel 1
@@ -35,8 +35,8 @@ bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ to
 bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOURCE@ toggle && $refresh_i3status
 
 # open terminal
-# bindsym $mod+Return exec alacritty
-bindsym $mod+Return exec flatpak run org.wezfurlong.wezterm
+bindsym $mod+Return exec alacritty
+# bindsym $mod+Return exec flatpak run org.wezfurlong.wezterm
 # kill focused window
 bindsym $mod+Shift+q kill
 

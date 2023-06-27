@@ -1,7 +1,7 @@
 if status is-interactive
 
-# Swap Escape and Caps
-setxkbmap -option caps:swapescape
+# Swap Escape and Caps - Commented Out. Added in Gnome Tweaks.
+# setxkbmap -option caps:swapescape
 
 # Vi Mode
 set fish_key_bindings fish_vi_key_bindings
