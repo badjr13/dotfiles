@@ -171,4 +171,4 @@ lvim.plugins = {
 lvim.colorscheme = "github_dark_high_contrast"
 -- vim.opt.relativenumber = true
 vim.opt.timeoutlen = 100
-vim.opt.wrap = true
+vim.opt.linebreak = true
