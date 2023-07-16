@@ -5,8 +5,9 @@ if status is-interactive
 
     # Alias
     alias cat="batcat"
+    alias h="/usr/local/bin/helix"
     alias hx="/usr/local/bin/helix"
-    alias vim="/usr/local/bin/nvim"
+    alias vim="/usr/local/bin/helix"
     alias z="zellij"
 
     # Starship Prompt - Keep at bottom
