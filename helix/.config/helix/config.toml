@@ -1,6 +1,7 @@
-theme = "base16_transparent"
+theme = "autumn_night"
 
 [editor]
+bufferline = "always"
 cursorline = true
 mouse = false
 
@@ -11,3 +12,6 @@ select = "underline"
 
 [editor.soft-wrap]
 enable = true
+
+[keys.normal."space"]
+"c" = ":buffer-close"
