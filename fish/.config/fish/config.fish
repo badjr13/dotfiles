@@ -10,6 +10,13 @@ if status is-interactive
     alias vim="/usr/local/bin/helix"
     alias z="zellij"
 
+    # Add Cargo to the PATH
+    set -gx PATH $HOME/.cargo/bin $PATH
+
+    # Set up Cargo environment variables
+    set -gx CARGO_HOME $HOME/.cargo
+    set -gx RUSTUP_HOME $HOME/.rustup
+
     # Starship Prompt - Keep at bottom
     starship init fish | source
 
