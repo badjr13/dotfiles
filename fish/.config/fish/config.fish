@@ -1,35 +1,23 @@
 if status is-interactive
 
-# Swap Escape and Caps - Commented Out. Added in Gnome Tweaks.
-# setxkbmap -option caps:swapescape
+    # Vi Mode
+    set fish_key_bindings fish_vi_key_bindings
 
-# Vi Mode
-set fish_key_bindings fish_vi_key_bindings
+    # Alias
+    alias cat="batcat"
+    alias h="/usr/local/bin/helix"
+    alias hx="/usr/local/bin/helix"
+    alias vim="/usr/local/bin/helix"
+    alias z="zellij"
 
-# Theme
-theme_tokyonight night
+    # Add Cargo to the PATH
+    set -gx PATH $HOME/.cargo/bin $PATH
 
-# Alias
-# alias brew="env PATH=\"${PATH//$(pyenv root)\/shims:/}\" brew"
-alias cat="batcat"
-alias dbox="distrobox"
-alias dkrpru="docker system prune -a && docker volume prune"
-alias fishc="vim ~/.config/fish/config.fish"
-alias i3r="i3-msg reload"
-alias ld="laydown"
-alias lock="i3lock -c 000000"
-alias ls="lsd"
-alias v="lvim"
-alias v.="lvim ."
-alias vim="lvim"
-alias wezterm="flatpak run org.wezfurlong.wezterm"
-alias z="zellij"
-alias zel="zellij"
+    # Set up Cargo environment variables
+    set -gx CARGO_HOME $HOME/.cargo
+    set -gx RUSTUP_HOME $HOME/.rustup
 
-# Starship Prompt - Keep at bottom
-starship init fish | source
-
-# Screenshots in i3
-export SCROTDIR="$HOME/Pictures"
+    # Starship Prompt - Keep at bottom
+    starship init fish | source
 
 end

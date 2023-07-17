@@ -1,5 +1,5 @@
 window:
-  startup_mode: Maximized
+  startup_mode: Fullscreen
 
 shell:
   program: /usr/bin/fish
@@ -10,44 +10,43 @@ env:
 font:
   size: 10.0
   normal:
-    family: DejaVuSansMono Nerd Font Mono
+    family: DejaVuSansM Nerd Font Mono
   offset:
     x: 0    # For letter spacing (default: 0).
     y: 1    # For line spacing (default: 0).
 
-schemes:
-
-# github Alacritty Colors
+# Colors (Rasmus)
 colors:
   # Default colors
   primary:
-    background: '0x0d1117'
-    foreground: '0xb3b1ad'
+    background: '#1a1a19'
+    foreground: '#d1d1d1'
+
+  # Cursor colors
+  cursor:
+    text: '#1a1a19'
+    cursor: '#d1d1d1'
 
   # Normal colors
   normal:
-    black:   '0x484f58'
-    red:     '0xff7b72'
-    green:   '0x3fb950'
-    yellow:  '0xd29922'
-    blue:    '0x58a6ff'
-    magenta: '0xbc8cff'
-    cyan:    '0x39c5cf'
-    white:   '0xb1bac4'
+    black:   '#333332'
+    red:     '#ff968c'
+    green:   '#61957f'
+    yellow:  '#ffc591'
+    blue:    '#8db4d4'
+    magenta: '#de9bc8'
+    cyan:    '#7bb099'
+    white:   '#d1d1d1'
 
   # Bright colors
   bright:
-    black:   '0x6e7681'
-    red:     '0xffa198'
-    green:   '0x56d364'
-    yellow:  '0xe3b341'
-    blue:    '0x79c0ff'
-    magenta: '0xd2a8ff'
-    cyan:    '0x56d4dd'
-    white:   '0xf0f6fc'
-
-  indexed_colors:
-    - { index: 16, color: '0xd18616' }
-    - { index: 17, color: '0xffa198' }
+    black:   '#4c4c4b'
+    red:     '#ffafa5'
+    green:   '#7aae98'
+    yellow:  '#ffdeaa'
+    blue:    '#a6cded'
+    magenta: '#f7b4e1'
+    cyan:    '#94c9b2'
+    white:   '#eaeaea'
 
 draw_bold_text_with_bright_colors: true
