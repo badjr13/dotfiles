@@ -13,5 +13,9 @@ select = "underline"
 [editor.soft-wrap]
 enable = true
 
+[keys.normal]
+"=" = "goto_prev_paragraph"
+"{" = "goto_next_paragraph"
+
 [keys.normal."space"]
 "c" = ":buffer-close"
