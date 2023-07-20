@@ -2,6 +2,7 @@ if status is-interactive
 
     # Set Default Editor to Helix
     set -Ux EDITOR "/usr/local/bin/helix"
+
     # Vi Mode
     set fish_key_bindings fish_vi_key_bindings
 
