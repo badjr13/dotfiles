@@ -9,11 +9,13 @@ if status is-interactive
     # Alias
     alias cat="batcat"
     alias dot="cd ~/dotfiles/"
-    alias h="/usr/local/bin/helix"
+    alias ld="laydown"
     alias hx="/usr/local/bin/helix"
-    alias vim="/usr/local/bin/helix"
+    alias j="joplin"
     alias z="zellij"
-    alias zl="zellij --layout ~/dotfiles/zellij/.config/zellij/layouts/default.kdl"
+
+    # Add llvm to the PATH
+    set -gx PATH "/usr/lib/llvm-14/bin" $PATH
 
     # Add Cargo to the PATH
     set -gx PATH $HOME/.cargo/bin $PATH

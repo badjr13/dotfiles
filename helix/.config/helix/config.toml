@@ -1,4 +1,4 @@
-theme = "autumn_night"
+theme = "base16_transparent"
 
 [editor]
 cursorline = true
@@ -8,6 +8,9 @@ mouse = false
 insert = "bar"
 normal = "block"
 select = "underline"
+
+[editor.file-picker]
+hidden = false
 
 [editor.soft-wrap]
 enable = true

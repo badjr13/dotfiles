@@ -1,0 +1,7 @@
+# Ignore Everything
+*
+
+# But this stuff:
+!.gitignore
+!keymap.json
+!keymap-default.json
