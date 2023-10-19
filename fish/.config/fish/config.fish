@@ -12,6 +12,7 @@ if status is-interactive
     alias ld="laydown"
     alias hx="/usr/local/bin/helix"
     alias j="joplin"
+    alias vim="nvim"
     alias z="zellij"
 
     # Add llvm to the PATH

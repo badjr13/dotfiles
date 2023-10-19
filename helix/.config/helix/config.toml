@@ -1,4 +1,4 @@
-theme = "base16_transparent"
+theme = "github_dark_high_contrast"
 
 [editor]
 cursorline = true
