@@ -207,3 +207,6 @@ theme "bobby"
 // Default: "default"
 
 default_layout "compact"
+
+default_shell "fish"
+

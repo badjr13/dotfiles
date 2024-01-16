@@ -28,4 +28,7 @@ if status is-interactive
     # Starship Prompt - Keep at bottom
     starship init fish | source
 
+    # Homebrew
+    eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
 end
