@@ -1,3 +1,4 @@
+```
 gsettings set org.gnome.shell.extensions.dash-to-dock hot-keys false
 
 gsettings set org.gnome.mutter dynamic-workspaces false
@@ -34,3 +35,4 @@ gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-7  "['<Super><S
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-8  "['<Super><Shift>8']"
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-9  "['<Super><Shift>9']"
 gsettings set org.gnome.desktop.wm.keybindings move-to-workspace-10 "['<Super><Shift>0']"
+```
