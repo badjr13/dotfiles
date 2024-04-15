@@ -1,4 +1,4 @@
-theme = "github_dark_high_contrast"
+theme = "solarized_dark"
 
 [editor]
 cursorline = true
@@ -16,8 +16,10 @@ hidden = false
 enable = true
 
 [keys.normal]
-"=" = "goto_prev_paragraph"
-"{" = "goto_next_paragraph"
+# "=" = "goto_prev_paragraph"
+# "{" = "goto_next_paragraph"
+"+" = "goto_prev_paragraph"
+"(" = "goto_next_paragraph"
 
 [keys.normal."space"]
 "c" = ":buffer-close"

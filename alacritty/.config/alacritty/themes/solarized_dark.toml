@@ -1,5 +1,4 @@
-[colors]
-draw_bold_text_with_bright_colors = true
+# Colors (Solarized Dark)
 
 # Default colors
 [colors.primary]
@@ -27,23 +26,3 @@ blue    = '#839496'
 magenta = '#6c71c4'
 cyan    = '#93a1a1'
 white   = '#fdf6e3'
-
-[env]
-TERM = "xterm-256color"
-
-[font]
-size = 10
-
-[font.normal]
-family = "DejaVuSansM Nerd Font Mono"
-
-[font.offset]
-x = 0
-y = 2
-
-[shell]
-program = "/usr/bin/fish"
-
-[window]
-dynamic_title = false
-startup_mode = "Maximized"

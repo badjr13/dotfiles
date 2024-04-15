@@ -1,12 +1,13 @@
 if status is-interactive
 
     # Set Default Editor to Helix
-    set -Ux EDITOR "/usr/local/bin/helix"
+    set -Ux EDITOR /usr/local/bin/helix
 
     # Vi Mode
     set fish_key_bindings fish_vi_key_bindings
 
     # Alias
+    alias age="cd ~/workspaces/edr/agent"
     alias cat="batcat"
     alias dot="cd ~/dotfiles/"
     alias ld="laydown"
@@ -16,7 +17,7 @@ if status is-interactive
     alias z="zellij"
 
     # Add llvm to the PATH
-    set -gx PATH "/usr/lib/llvm-14/bin" $PATH
+    set -gx PATH /usr/lib/llvm-14/bin $PATH
 
     # Add Cargo to the PATH
     set -gx PATH $HOME/.cargo/bin $PATH
@@ -29,6 +30,6 @@ if status is-interactive
     starship init fish | source
 
     # Homebrew
-    eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+    # eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
 end
