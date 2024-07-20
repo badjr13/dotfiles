@@ -1,10 +1,10 @@
 if status is-interactive
 
-    # Set Default Editor to Helix
-    set -Ux EDITOR /usr/local/bin/helix
-
     # Vi Mode
     set fish_key_bindings fish_vi_key_bindings
+
+    # Set Default Editor to Helix
+    set -Ux EDITOR /usr/local/bin/helix
 
     # Alias
     alias age="cd ~/workspaces/edr/agent"
@@ -12,9 +12,7 @@ if status is-interactive
     alias dot="cd ~/dotfiles/"
     alias ld="laydown"
     alias hx="/usr/local/bin/helix"
-    alias j="joplin"
-    alias vim="nvim"
-    alias z="zellij"
+    alias z="zellij --layout ~/.config/zellij/layouts/default.kdl"
 
     # Add llvm to the PATH
     set -gx PATH /usr/lib/llvm-14/bin $PATH
@@ -32,4 +30,6 @@ if status is-interactive
     # Homebrew
     # eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
 
+    # Default Directory
+    cd ~/workspaces
 end
