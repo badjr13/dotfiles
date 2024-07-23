@@ -16,8 +16,8 @@ hidden = false
 enable = true
 
 [keys.normal]
-"A-k" = "goto_prev_paragraph"
-"A-j" = "goto_next_paragraph"
+"C-k" = "goto_prev_paragraph"
+"C-j" = "goto_next_paragraph"
 
 [keys.normal."space"]
 "c" = ":buffer-close"
