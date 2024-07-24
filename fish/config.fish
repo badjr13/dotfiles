@@ -29,7 +29,4 @@ if status is-interactive
 
     # Homebrew
     # eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
-
-    # Default Directory
-    cd ~/workspaces
 end
