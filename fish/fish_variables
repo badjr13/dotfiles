@@ -1,6 +1,12 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR --export EDITOR:/usr/local/bin/helix
+SETUVAR --export HOMEBREW_CELLAR:/Cellar
+SETUVAR --export HOMEBREW_PREFIX:/home/linuxbrew/\x2elinuxbrew
+SETUVAR --export HOMEBREW_REPOSITORY:/Homebrew
+SETUVAR --export --path INFOPATH:/share/info
+SETUVAR --export --path MANPATH:/share/man
+SETUVAR --export --path PATH:/bin\x1e/home/bobby/\x2envm/versions/node/v14\x2e17\x2e6/bin\x1e/home/bobby/\x2ecargo/bin\x1e/usr/lib/llvm\x2d14/bin\x1e/home/bobby/\x2elocal/bin\x1e/home/bobby/\x2ecargo/bin\x1e/usr/lib/llvm\x2d14/bin\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/sbin\x1e/usr/bin\x1e/sbin\x1e/bin\x1e/usr/games\x1e/usr/local/games\x1e/snap/bin\x1e/snap/bin
 SETUVAR --export TOKYONIGHT:night
 SETUVAR __fish_initialized:3100
 SETUVAR _fisher_axkirillov_2F_tokyonight_2D_fish_files:\x7e/\x2econfig/fish/functions/_tokyonight_set_background\x2efish\x1e\x7e/\x2econfig/fish/functions/theme_tokyonight\x2efish\x1e\x7e/\x2econfig/fish/functions/tokyonight_day\x2efish\x1e\x7e/\x2econfig/fish/functions/tokyonight_moon\x2efish\x1e\x7e/\x2econfig/fish/functions/tokyonight_night\x2efish\x1e\x7e/\x2econfig/fish/functions/tokyonight_storm\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/tokyonight\x2efish

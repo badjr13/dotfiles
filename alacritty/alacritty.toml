@@ -8,7 +8,7 @@ TERM = "xterm-256color"
 
 [window]
 dynamic_title = false
-startup_mode = "Maximized"
+startup_mode = "Fullscreen"
 
 [font]
 size = 10

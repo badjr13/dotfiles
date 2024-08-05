@@ -1,5 +1,4 @@
 if status is-interactive
-
     # Vi Mode
     set fish_key_bindings fish_vi_key_bindings
 
@@ -27,6 +26,9 @@ if status is-interactive
     # Starship Prompt - Keep at bottom
     starship init fish | source
 
-    # Homebrew
-    # eval (/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+    # Go
+    set PATH "$PATH:/usr/local/go/bin"
+    set GOPATH "$HOME/go"
+    set PATH "$PATH:$GOPATH/bin"
+    set PATH "$PATH:/home/bobby/go/bin"
 end
