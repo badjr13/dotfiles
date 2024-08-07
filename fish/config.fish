@@ -4,6 +4,7 @@ if status is-interactive
     alias age="cd ~/workspaces/edr/agent"
     alias bobs="cd ~/obsidian/badjr13"
     alias cat="batcat"
+    alias dc="docker system prune -a --volumes"
     alias dot="cd ~/dotfiles/"
     alias hx="/usr/local/bin/helix"
     alias ld="laydown"
