@@ -2,20 +2,20 @@ if status is-interactive
 
     # *** Aliases ***
     alias age="cd ~/workspaces/edr/agent"
-    alias bobs="cd ~/obsidian/badjr13"
     alias cat="batcat"
     alias dc="docker system prune -a --volumes"
     alias dot="cd ~/dotfiles/"
     alias hx="/usr/local/bin/helix"
     alias ld="laydown"
     alias obs="obsidian"
-    alias wobs="cd ~/obsidian/dorranceb1"
+    alias obsb="cd ~/obsidian/badjr13"
+    alias obsw="cd ~/obsidian/dorranceb1"
     alias z="zellij --layout ~/.config/zellij/layouts/default.kdl"
 
     # *** Functions ***
     # Git commit with date
     function gcd
-        set commit_message (date +"%a %b %d - %H:%M:%S")
+        set commit_message (date +"%a %b %d %Y - %H:%M:%S")
         git commit -m "$commit_message"
     end
 
