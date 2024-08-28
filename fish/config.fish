@@ -42,6 +42,9 @@ if status is-interactive
     set PATH "$PATH:$GOPATH/bin"
     set PATH "$PATH:/home/bobby/go/bin"
 
+    # *** Node ***
+    set -gx PATH /usr/local/node/bin $PATH
+
     # *** Initializations ***
     # Starship Prompt - Keep at bottom
     starship init fish | source
