@@ -6,8 +6,9 @@ if status is-interactive
     alias cat="batcat"
     alias dc="docker system prune -a --volumes"
     alias dot="cd ~/dotfiles/"
-    alias hx="/usr/local/bin/helix"
+    # alias hx="/usr/local/bin/helix"
     alias ld="laydown"
+    alias v="nvim"
     alias wrk="cd ~/notes/dorranceb1"
     alias z="zellij --layout ~/.config/zellij/layouts/default.kdl"
 
