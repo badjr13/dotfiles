@@ -5,4 +5,8 @@ layout {
             plugin location="zellij:compact-bar"
         }
     }
+    tab name="notes" focus=true
+    tab name="helix"
+    tab name="gitui"
+    tab name="fish"
 }
