@@ -10,10 +10,11 @@ transport = "tcp"
 [[language.debugger.templates]]
 name = "binary"
 request = "launch"
+
 [[language.debugger.templates.completion]]
 completion = "filename"
 name = "binary"
 
 [language.debugger.templates.args]
 program = "{0}"
-runInTerminal = true
+runInTerminal = false

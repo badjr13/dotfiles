@@ -8,6 +8,7 @@ if status is-interactive
     alias dot="cd ~/dotfiles/"
     alias hx="/usr/local/bin/helix"
     alias ld="laydown"
+    alias rdb="rust-lldb"
     alias v="nvim"
     alias z="zellij --layout ~/.config/zellij/layouts/default.kdl"
 
@@ -24,6 +25,7 @@ if status is-interactive
 
     # Set Default Editor to Helix
     set -Ux EDITOR /usr/local/bin/helix
+    set SUDO_EDITOR /usr/bin/local/helix
 
     # Add llvm to the PATH
     set -gx PATH /usr/lib/llvm-14/bin $PATH
