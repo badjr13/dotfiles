@@ -18,6 +18,7 @@ enable = true
 [keys.normal]
 "C-k" = "goto_prev_paragraph"
 "C-j" = "goto_next_paragraph"
+X = ["extend_line_up", "extend_to_line_bounds"]
 
 [keys.normal."space"]
 "c" = ":buffer-close"
