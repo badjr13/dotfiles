@@ -2,12 +2,12 @@ if status is-interactive
 
     # *** Aliases ***
     alias age="cd ~/workspaces/edr/agent"
-    alias asdf="cd ~/notes"
     alias cat="batcat"
     alias dc="docker system prune -a --volumes"
     alias dot="cd ~/dotfiles/"
     alias hx="/usr/local/bin/helix"
     alias ld="laydown"
+    alias notes="cd ~/notes"
     alias rdb="rust-lldb"
     alias v="nvim"
     alias z="zellij --layout ~/.config/zellij/layouts/default.kdl"
