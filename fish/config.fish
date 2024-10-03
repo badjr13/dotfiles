@@ -8,6 +8,7 @@ if status is-interactive
     alias hx="/usr/local/bin/helix"
     alias ld="laydown"
     alias notes="cd ~/notes"
+    alias py39="/opt/python/3.9.4/bin/python3.9"
     alias rdb="rust-lldb"
     alias v="nvim"
     alias z="zellij --layout ~/.config/zellij/layouts/default.kdl"
