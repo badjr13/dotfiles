@@ -7,7 +7,7 @@ if status is-interactive
     alias dot="cd ~/dotfiles/"
     alias hx="/usr/local/bin/helix"
     alias ld="laydown"
-    alias notes="cd ~/notes"
+    alias ns="cd ~/notes"
     alias py39="/opt/python/3.9.4/bin/python3.9"
     alias rdb="rust-lldb"
     alias v="nvim"
