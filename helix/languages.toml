@@ -18,3 +18,15 @@ name = "binary"
 [language.debugger.templates.args]
 program = "{0}"
 runInTerminal = false
+
+[[language]]
+name = "python"
+auto-format = true
+
+[language.formatter]
+command = "black"
+args = [
+  "-",
+  "--quiet",
+  "--line-length=79",
+]
