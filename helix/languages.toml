@@ -1,3 +1,4 @@
+### RUST
 [[language]]
 name = "rust"
 
@@ -19,6 +20,17 @@ name = "binary"
 program = "{0}"
 runInTerminal = false
 
+
+### C
+[[language]]
+name = "c"
+auto-format = true
+
+[language.formatter]
+command = "clang-format"
+
+
+### PYTHON
 [[language]]
 name = "python"
 auto-format = true
@@ -28,5 +40,5 @@ command = "black"
 args = [
   "-",
   "--quiet",
-  "--line-length=79",
+  "--line-length=120",
 ]
