@@ -42,3 +42,13 @@ args = [
   "--quiet",
   "--line-length=120",
 ]
+
+
+### MARKDOWN
+[[language]]
+name = "markdown"
+auto-format = true
+
+[language.formatter]
+command = "dprint"
+args = ["fmt", "--stdin", "md"]
