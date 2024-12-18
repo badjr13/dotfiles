@@ -12,7 +12,7 @@ if status is-interactive
     alias rdb="rust-lldb"
     alias v="nvim"
     alias z="zellij --layout ~/.config/zellij/layouts/default.kdl"
-    alias zkd="z ka -y && z da -y"
+    alias zkd="z da -y && z ka -y"
 
     # *** Functions ***
     # Git commit with date
