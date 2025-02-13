@@ -1,4 +1,4 @@
-theme = "nightfox"
+theme = "solarized_dark"
 
 [editor]
 cursorline = true

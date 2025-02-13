@@ -49,6 +49,11 @@ if status is-interactive
     # *** Node ***
     set -gx PATH /usr/local/node/bin $PATH
 
+    # *** Python pyenv ***
+
+    set -Ux PYENV_ROOT $HOME/.pyenv
+    fish_add_path $PYENV_ROOT/bin
+
     # *** Initializations ***
     # Starship Prompt - Keep at bottom
     starship init fish | source
