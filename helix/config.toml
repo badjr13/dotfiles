@@ -1,4 +1,4 @@
-theme = "solarized_dark"
+theme = "dark_plus"
 
 [editor]
 cursorline = true
