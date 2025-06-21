@@ -33,7 +33,7 @@ command = "clang-format"
 ### PYTHON
 [[language]]
 name = "python"
-auto-format = true
+# auto-format = true
 
 [language.formatter]
 command = "black"
@@ -47,7 +47,7 @@ args = [
 ### MARKDOWN
 [[language]]
 name = "markdown"
-auto-format = true
+# auto-format = true
 
 [language.formatter]
 command = "dprint"

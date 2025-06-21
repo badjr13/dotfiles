@@ -1,8 +1,10 @@
-theme = "dark_plus"
+theme = "solarized_light"
 
 [editor]
+# auto-completion = false
 cursorline = true
 mouse = false
+shell = ["fish", "-c"]
 
 [editor.cursor-shape]
 insert = "bar"

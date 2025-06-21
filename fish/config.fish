@@ -3,6 +3,7 @@ if status is-interactive
     # *** Aliases ***
     alias age="cd ~/workspaces/edr/agent"
     alias cat="batcat"
+    alias daily="hx ~/notes/dorranceb1/daily.md"
     alias dc="docker system prune -a --volumes"
     alias dot="cd ~/dotfiles/"
     alias hx="/usr/local/bin/helix"
@@ -19,6 +20,11 @@ if status is-interactive
     function gcd
         set commit_message (date +"%a %b %d %Y - %H:%M:%S")
         git commit -m "$commit_message"
+    end
+
+    # Print out today in 'Monday May 23, 1990' format
+    function today
+        date +"%A %b %d, %Y"
     end
 
     # *** Environment Variables ***
@@ -50,11 +56,12 @@ if status is-interactive
     set -gx PATH /usr/local/node/bin $PATH
 
     # *** Python pyenv ***
-
     set -Ux PYENV_ROOT $HOME/.pyenv
     fish_add_path $PYENV_ROOT/bin
 
     # *** Initializations ***
     # Starship Prompt - Keep at bottom
     starship init fish | source
+
+    source ~/.config/fish/bd-aliases.fish
 end
